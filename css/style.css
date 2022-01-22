@@ -122,8 +122,8 @@ a:hover {
 }
 
 .navbar-default {
-	background-color: #034703;
-	border-color:#034703;
+	background-color: #2234d1;
+	border-color:#2234d1;
 }
 
 /*===========================
@@ -739,7 +739,7 @@ ul.social_icons li  a i{
 
 .gallery figure figcaption {
 	padding: 2em;
-	color: #fff;
+	color: #FFFFFF;
 	text-transform: uppercase;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
@@ -921,7 +921,7 @@ textarea#message{
 ============================ */
 footer {
 	padding:50px;
-	background:#057c29;
+	background:#2234d1;
 }
 
 footer p {
