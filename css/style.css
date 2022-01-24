@@ -776,7 +776,7 @@ figure.effect-marley p {
 
 figure.effect-marley h4 {
 	top: 30px;
-	color:#fff;
+	color:rgb(0, 0, 0);
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,20px,0);
@@ -838,7 +838,7 @@ figure.effect-marley:hover p {
 }
 .action .left-text em {
   font-size: 16px;
-  color: #aaa;
+  color: rgb(0, 0, 0);
   font-weight: 300;
   font-style: normal;
 }
@@ -846,12 +846,12 @@ figure.effect-marley:hover p {
   position: absolute;
   top: 0;
   right: 0;
-  width: 50%;
+  width: 25%;
   height: 100%;
   background-size: cover;
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-image: url(../img/7.jpg);
+  background-image: url(../img/img2/7.png);
 }
 
 /* --- Mapa --- */
