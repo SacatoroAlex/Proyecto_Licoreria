@@ -1,6 +1,3 @@
-<?php
-require_once 'conexion.php'
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,8 +32,8 @@ require_once 'conexion.php'
                 <div class="navbar-collapse collapse">							
 					<div class="menu">
 						<ul class="nav nav-tabs" role="tablist">
-							<li role="presentation"><a href="inicio.html">Inicio</a></li>
-							<li role="presentation"><a href="acerca de.html">A cerca de</a></li>
+							<li role="presentation"><a href="index.html">Inicio</a></li>
+							<li role="presentation"><a href="acercade.html">A cerca de</a></li>
 							<li role="presentation"><a href="servicios.html">Ofrecemos</a></li>
 							<li role="presentation"><a href="galeria.html">Galería</a></li>
 							<li role="presentation"><a href="contactos.html" class="active">Contactos</a></li>						
@@ -57,37 +54,32 @@ require_once 'conexion.php'
                 <h2>DEJE SU COMENTARIO</h2>
                 <p> Tus comentarios nos ayudará a mejorar.</p>
             </div> 
-            <div class="row contact-wrap"> 
-                <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="enviodedatos.php" >
-                    <div class="col-sm-5 col-sm-offset-1">
-                        <div class="form-group">
-                            <label>Nombre*</label>
-                            <input type="text" name="nombre" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label>Correo *</label>
-                            <input type="email" name="email" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label> celular*</label>
-                            <input type="text" name="numerex" class="form-control" required="required">
-                        </div>
-                                               
-                    </div>
-                    <div class="col-sm-5">
-                        
-                        <div class="form-group">
-                            <label>Comentario*</label>
-                            <textarea name="comentariex" id="message" required="required" class="form-control" rows="8"></textarea>
-                        </div>                        
-                        <div class="form-group">
-							<input type="submit" value="enviar " class="btn btn-primary btn-lg" required="required" />
-                    
-                        </div>
-                    </div>
-                </form> 
-            </div>
+            <div class="col-md-4">
+				<div  class ="card">
+				  <div class="card-body">
+					  <form action="/agregar" method="POST">
+						  <div class="form-group">
+							<input type="text" name="nombre" placeholder="Ingresa su nombre" class="form-control" autofocus>
+						  </div><br>
+						  <div class="form-group">
+							<input type="text" name="coreo" placeholder="Ingrese su correo" class="form-control">
+						  </div><br>
+						  <div class="form-group">
+							<input type="text" name="celular" placeholder="Ingrese numero de celular" class="form-control">
+						  </div>
+						  <br>
+						  <div class="form-group">
+							<input type="text" name="comentario" placeholder="Ingrese su comentario" class="form-control">
+						  </div><br>
+						  <button type="submit" class="btn btn-primary">
+							Enviar
+						  </button>
+						</form>
+				  </div>
+				</div>
+			</div>
+
+
         </div>
     </section>
 	

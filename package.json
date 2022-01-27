@@ -1,0 +1,29 @@
+{
+  "name": "proyecto_licoreria---copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "principal.js",
+  "scripts": {
+    "dev": "nodemon principal.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SacatoroAlex/Proyecto_Licoreria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SacatoroAlex/Proyecto_Licoreria/issues"
+  },
+  "homepage": "https://github.com/SacatoroAlex/Proyecto_Licoreria#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
